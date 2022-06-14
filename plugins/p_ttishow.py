@@ -53,18 +53,13 @@ async def save_group(bot, message):
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
-                temp.MELCOW['welcome'] = await message.reply(f"👋 Hey Welcome {u.mention},
-
+                temp.MELCOW['welcome'] = await message.reply(f"👋 Hey Welcome {u.mention} ,
 Welcome to <b>Cinema World.</>
-
 You Can Find Movies/Series/Animes & etc. From Here. Stay Safe & Enjoy...🌺
-
+                                                             
 ┏≫ 𝙁𝙤𝙡𝙡𝙤𝙬 𝙂𝙧𝙤𝙪𝙥 𝙍𝙪𝙡𝙚𝙨
-
 ┣ <b>ᴄʜᴀɴɴᴇʟ ››</b> <a href=https://t.me/Cinema_World_Sri_Lanka>ᴄɪɴᴇᴍᴀ ᴡᴏʀʟᴅ</a></b>
-
 ┗≫ 𝙁𝙤𝙡𝙡𝙤𝙬 𝙂𝙧𝙤𝙪𝙥 𝙍𝙪𝙡𝙚𝙨
-
 © <b>ᴏᴡɴᴇʀ ››</b> <a href=https://t.me/Cinema_World_Owner>ʟᴀsɪᴛʜ ᴄʜᴀᴍɪᴋᴀ</a></b>")
 
 
