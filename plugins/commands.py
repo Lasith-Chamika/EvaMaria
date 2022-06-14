@@ -47,8 +47,8 @@ async def start(client, message):
             InlineKeyboardButton('🔎 Search 🔍', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🌺 Channel 🌺', url='https://t.me/Cinema_World_Sri_Lanka')
             ],[
-            InlineKeyboardButton('🌼 Help 🌼', callback_data='help'),
-            InlineKeyboardButton('☘ About ☘', callback_data='about')
+            InlineKeyboardButton('☘ About ☘', callback_data='about'),
+            InlineKeyboardButton('ℹ️ Help ℹ️', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -93,8 +93,8 @@ async def start(client, message):
             InlineKeyboardButton('🔎 Search 🔍', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🌺 Channel 🌺', url='https://t.me/Cinema_World_Sri_Lanka')
             ],[
-            InlineKeyboardButton('🌼 Help 🌼', callback_data='help'),
-            InlineKeyboardButton('☘ About ☘', callback_data='about')
+            InlineKeyboardButton('☘ About ☘', callback_data='about'),
+            InlineKeyboardButton('ℹ️ Help ℹ️', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
